@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "qiskit_ibm_runtime"
+version = "0.1.0"
+description = "n"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.11"
+mypy = "0.931"
+pylint = "2.12.2"
+vcrpy = "^4.1.1"
+pproxy = "2.7.8"
+Sphinx = ">=1.8.3"
+sphinx-rtd-theme = ">=0.4.0"
+sphinx-tabs = ">=1.1.11"
+sphinx-automodapi = "^0.14.1"
+sphinx-autodoc-typehints = "^1.18.1"
+matplotlib = ">=2.1"
+jupyter = "^1.0.0"
+jupyter-sphinx = "^0.3.2"
+reno = ">=2.11.0"
+scipy = ">=1.0"
+nbformat = ">=4.4.0"
+nbconvert = ">=5.3.1"
+qiskit-aer = "^0.10.4"
+websockets = ">=8"
+black = "22.3.0"
+coverage = ">=6.3"
+pylatexenc = "^2.10"
+mthree = "^0.23.0"
+sklearn = "^0.0"
+tox = "^3.25.0"
+qiskit-terra = ">=0.20.0"
+requests = ">=2.19"
+requests_ntlm = ">=1.1.0"
+numpy = ">=1.13"
+urllib3 = ">=1.21.1"
+python-dateutil = ">=2.8.0"
+websocket-client = ">=1.0.1"
+typing-extensions = ">=4.0.0"
+ibm-platform-services = ">=0.22.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
